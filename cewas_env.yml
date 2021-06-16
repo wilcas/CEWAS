@@ -1,0 +1,12 @@
+name: cewas_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - sqlalchemy
+  - python=3.5
+  - scipy=0.18.1
+  - joblib
+  - numpy=1.11.1
+  - pandas

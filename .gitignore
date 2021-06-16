@@ -1,0 +1,33 @@
+# History files
+.Rhistory
+
+# Example code in package build process
+*-Ex.R
+
+*~
+
+# R data files from past sessions
+.Rdata
+
+# RStudio files
+.Rproj.user/
+
+# Mac hidden files
+*.DS_Store
+
+# Python's setuptools stuff
+*dist/
+*.egg*
+setuptools*.zip
+
+# PyCharm project files
+*.idea
+
+# Pyenv
+.python-version
+
+venv
+*.bak
+
+# Other data
+data/SCZ2019_refmt.txt
