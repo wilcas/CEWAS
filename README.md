@@ -81,7 +81,7 @@ optional arguments:
   --ncores NCORES       Number of cores available for job (default: 1)
 ```
 ### Required data
-As input, CEWAS requires several models that describe the association between genotype, methylation, and gene expression in a given tissue, as well as a reference for covariance between data comprising those models. All relevant resources can be downloaded from [WEB PAGE](FILL_IN) and then they can be placed in the `data/` directory of this package
+As input, CEWAS requires several models that describe the association between genotype, methylation, and gene expression in a given tissue, as well as a reference for covariance between data comprising those models. These models and covariances can be found in the `data/` directory of this project.
 
 Briefly the required data are:
 * SNP to methylation predictDB, split by chromosome: This an SQLite database describing the association between genotype and DNA methylation in *cis*, and closely resembles the [format used in MetaXcan](https://github.com/hakyimlab/MetaXcan/wiki/Command-Line-Reference#spredixcanpy)`{name}_chr{1-22}.db"
