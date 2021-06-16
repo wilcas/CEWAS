@@ -106,7 +106,7 @@ def run_snp_methy_by_chr(args,chrom):
     cur_cov_file = "{}_chr{}.txt.gz".format(args.cov_file_snp_fmt,chrom)
     cur_output = "{}.methy.chr{}".format(args.output,chrom)
     if not (os.path.exists(cur_cov_file) and os.path.exists(cur_predict_db)):
-        print("SNP to methylation data is missing for chromosome {}, skipping".format(chrom))
+        print("Either GWAS or SNP to methylation data is missing for chromosome {}, skipping".format(chrom))
         return 0
     if os.path.exists(cur_output):
         print("{} already exists, please remove it to recalculate".format(cur_output))
